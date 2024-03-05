@@ -18,3 +18,15 @@
 
   Console.WriteLine(number);
 }
+
+//asterisk
+Console.WriteLine("How many rows of asterisks");
+int number = Int32.Parse(Console.ReadLine());
+
+for(int a=0; a<number; a++)
+{
+    Console.Write("*");
+}
+
+//Console.WriteeLine(maxNum);
+       
